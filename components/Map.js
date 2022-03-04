@@ -12,8 +12,8 @@ const Map = ({ pickUpCoordinates, dropOffCoordinates }) => {
     useEffect(() => {
         const map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11',
-            // style:'mapbox://styles/drakosi/ckvcwq3rwdw4314o3i2ho8tph',
+            // style: 'mapbox://styles/mapbox/streets-v11',
+            style:'mapbox://styles/drakosi/ckvcwq3rwdw4314o3i2ho8tph',
             center: [78.9629, 20.5937],
             zoom: 3
         });
