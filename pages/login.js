@@ -31,7 +31,7 @@ const Login = () => {
 export default Login
 
 const Wrapper = tw.div`
-    flex flex-col h-screen w-screen bg-gray-200 p-4
+    flex flex-col h-screen w-screen bg-gray-200 p-4 max-w-sm
 `
 const LoginTitle = tw.div`
     

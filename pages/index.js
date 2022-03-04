@@ -67,7 +67,7 @@ export default function Home() {
 }
 
 const Wrapper = tw.div`
-  flex flex-col h-screen
+  flex flex-col h-screen max-w-sm 
 `
 
 

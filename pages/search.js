@@ -46,7 +46,7 @@ export default Search
 
 
 const Wrapper = tw.div`
-    bg-gray-200 h-screen
+    bg-gray-200 h-screen max-w-sm 
 `
 
 const ButtonContainer = tw.div`

@@ -75,7 +75,7 @@ const Confirm = () => {
 export default Confirm
 
 const Wrapper = tw.div`
-    flex flex-col h-screen
+    flex flex-col h-screen max-w-sm 
     relative
 `
 
