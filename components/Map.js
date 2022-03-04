@@ -58,5 +58,5 @@ const Map = ({ pickUpCoordinates, dropOffCoordinates }) => {
 export default Map;
 
 const Wrapper = tw.div`
-    flex-1
+    flex-1 absolute
 `
